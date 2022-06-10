@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+.name-heighlight {
+  color: orange;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  color: dimgray;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
+  border-radius: 15px;
+}
+.top-banner {
+  background-image: url(./images/banner.png);
+  background-repeat: no-repeat;
+}
+section {
+  height: 600px;
+}
+.single-experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 7px;
+  height: 68%;
+  background-color: white;
+}
+.experience {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.link-button {
+  background-image: linear-gradient(lightsalmon, tomato);
+  text-decoration: none;
+  padding: 7px 15px;
+  margin: 2px;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+}
+.link-button:hover {
+  color: red;
+  font-size: 15px;
+}
+.dram-area {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, red, tomato);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  font-weight: 700;
+}
